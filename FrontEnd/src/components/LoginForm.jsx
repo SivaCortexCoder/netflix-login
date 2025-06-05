@@ -98,7 +98,7 @@ const togglePassword = ()=>{
           Sign In
         </button>
         <p className="text-center">OR</p>
-        <button className="bg-[#333333] font-bold text-white px-4 py-2 rounded text-md  cursor-pointer">
+        <button type='button' className="bg-[#333333] font-bold text-white px-4 py-2 rounded text-md  cursor-pointer">
           Use a sign-in code
         </button>
         <a href="#" className="text-center underline">
