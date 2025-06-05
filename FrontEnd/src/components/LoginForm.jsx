@@ -29,7 +29,7 @@ const handleUser = (key, value) => {
 
 
 const verifyData = ()=>{
-  axios.post('https://netflix-login-scac.onrender.com',{email:user.email, password:user.password})
+  axios.post('https://netflix-login-scac.onrender.com/verify',{email:user.email, password:user.password})
     .then(res => {
     console.log(res);
     if (res.data === true) {
