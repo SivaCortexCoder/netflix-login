@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/Images/logo.png";
 import { Link } from "react-router-dom";
+import { FaLanguage } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
@@ -9,7 +10,8 @@ const Navbar = () => {
         <img className="w-25 md:w-30 lg:w-40" src={logo} />
       </div>
       <div className=" flex gap-3">
-        <button className="text-white  bg-black/20 backdrop-blur-2xl px-4 py-1 border rounded cursor-pointer ">
+        <button className="text-white flex items-center gap-2  bg-black/20 backdrop-blur-2xl px-4 py-1 border rounded cursor-pointer ">
+          <FaLanguage />
          
           <span className="hidden md:block">English</span>
         </button>
