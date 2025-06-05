@@ -12,7 +12,7 @@ const password = 'test123'
 app.post('/verify',(req,res)=>{
     console.log(req.body)
 
-    if(req.body.email===email && req.body.password===password){
+    if(req.body.email.toLowerCase()===email.toLowerCase() && req.body.password===password){
         res.send(true)
         console.log("sucess")
     }
