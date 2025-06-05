@@ -14,7 +14,7 @@ app.use(express.json());
 
 
 const email = 'test123@gmail.com'
-const password = 'test123'
+const password = '123456789'
 
 app.post('/verify',(req,res)=>{
     console.log(req.body)
