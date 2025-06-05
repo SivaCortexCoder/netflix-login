@@ -13,8 +13,8 @@ app.options('*', cors());
 app.use(express.json());
 
 
-const email = 'johndoe@testmail.com'
-const password = 'Safepass123!'
+const email = 'test123@gmail.com'
+const password = 'test123'
 
 app.post('/verify',(req,res)=>{
     console.log(req.body)
